@@ -1,0 +1,7 @@
+# build artifacts
+/dist
+*.tar.gz
+*.zip
+
+# good ol' vim
+*.swp
