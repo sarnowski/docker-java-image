@@ -11,9 +11,9 @@ The main two problems for Java Docker images:
 * Oracle Corporation: the Java license forbids redistribution of the Java
   artifacts (JDK/JRE). Bundling and uploading them publicly clearly
   redistributes them.
-* Busybox base image: the official busybox Docker image is licensed with
+* Linux flavored base image: Linux and its disributions have
   the GNU General Public License. It is up to your interpretation, if using
-  the busybox base image forces your image to be GPL licensed too or not.
+  a Linux base image forces your image to be GPL licensed or not.
 
 ## How-To build your own Java Docker image
 
