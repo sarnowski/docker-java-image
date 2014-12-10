@@ -3,5 +3,9 @@
 *.tar.gz
 *.zip
 
+# tests
+*.class
+/test/Dockerfile
+
 # good ol' vim
 *.swp

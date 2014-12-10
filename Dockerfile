@@ -1,4 +1,4 @@
-FROM busybox:ubuntu-14.04
+FROM ubuntu:latest
 MAINTAINER Tobias Sarnowski <tobias@sarnowski.io>
 
 ADD dist/java /java
