@@ -10,5 +10,3 @@ cd $(dirname $0)
 docker build -t $IMG . || exit $?
 
 ./test.sh $IMG || exit $?
-
-docker push $IMG || exit $?

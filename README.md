@@ -23,21 +23,12 @@ You need the following files:
 * **server-jre-8u25-linux-x64.tar.gz** (Server JRE)
 * **jce_policy-8.zip** (Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files for JDK/JRE 8)
 
-Place them in the directory of this repository. Prepare all files, that your
-image will need by calling the preparation script:
+Place them in the directory of this repository.
 
-    $ ./prepare.sh
+    $ ./build.sh my-image-name
 
 (If you use another version of Java than the default, you can override the
 version with the environment variables `JAVA_VERSION` and `JAVA_PATCH_VERSION`)
-
-After the script finished, you can build your Docker image as normal:
-
-    $ docker build -t java .
-
-Your image is no ready to use. To verify, call java:
-
-    $ docker run -t java java -version
 
 ## License
 
