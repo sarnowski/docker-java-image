@@ -3,7 +3,7 @@
 # version configuration
 # one can set the java version via environment variables
 [ -z "$JAVA_VERSION" ] && JAVA_VERSION=8
-[ -z "$JAVA_PATCH_VERSION" ] && JAVA_PATCH_VERSION=25
+[ -z "$JAVA_PATCH_VERSION" ] && JAVA_PATCH_VERSION=31
 
 
 # reset env
